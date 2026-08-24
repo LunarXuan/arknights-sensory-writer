@@ -1,0 +1,15 @@
+interface:
+  display_name: Arknights Sensory Writer
+  short_description: Arknights footwear and sensory prose with selectable literary/professional
+    mode, intensity, and adult-only fetish framing.
+  default_prompt: 先解析用户偏好：写作模式为文艺/均衡/专业，感官强度为轻/中/重/极重，成人恋物默认关闭且仅在确认成年并由用户明确要求时开启。若用户第一次生成且没有给偏好，用一行菜单提醒，也允许直接说默认写。研究人物与官方立绘后隐藏检索过程；专业模式优先采用简短背景
+    -> 鞋袜/足部/气味连续深挖 -> 同人延伸，中间分析必须是连续因果链而不是模块拼贴。自然分段，中长句为主，避免一句一段和长短段机械交替。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
